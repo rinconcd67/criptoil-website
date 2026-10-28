@@ -264,3 +264,7 @@ table.spec{width:100%;border-collapse:collapse;font-size:15px;min-width:640px}
 .cat .credit a{color:inherit}
 @media (max-width:1100px){.catalog{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:700px){.catalog{grid-template-columns:1fr}}
+
+/* crédito de la foto de cabecera: siempre bajo el texto, nunca encima */
+.phead.has-photo{flex-direction:column;align-items:flex-start;justify-content:flex-end}
+.phead .photo-credit{position:relative;right:auto;bottom:auto;text-align:left;margin:26px 0 0;max-width:70ch;font-size:12px;color:#c4c8c4}
